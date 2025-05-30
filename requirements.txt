@@ -1,0 +1,4 @@
+python-telegram-bot==20.3
+transformers==4.40.0
+torch
+requests
