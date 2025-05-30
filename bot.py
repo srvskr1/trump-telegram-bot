@@ -9,7 +9,7 @@ BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 NEWS_API_KEY = os.environ.get("NEWS_API_KEY")
 
 # 🧠 Load summarization pipeline
-summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
 
 # 📡 Fetch news from NewsAPI
 def fetch_trump_news():
